@@ -1,16 +1,16 @@
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/ignite-logo.svg" width="200px">
+  <img alt="Logo" src="./src/assets/ignite-logo.svg" width="50px">
 </h1>
 
 <h3 align="center">
-  ReactJS Application - GoBarber
+  Vite - ReactJS Application
 </h3>
 
 <p align="center">
   <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 </br>
