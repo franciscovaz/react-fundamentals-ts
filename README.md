@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <img alt="Logo" src="./src/assets/ignite-logo.svg" width="200px">
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">
+  ReactJS Application - GoBarber
+</h3>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</br>
 
-## Expanding the ESLint configuration
+## 💇🏻‍♂️ About the project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This is the frontend to an app with Vite and React to get back on track with React framework. 
+We are able to add new comments and likes.
 
-- Configure the top-level `parserOptions` property like this:
+<br />
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/da480f51-5920-45fa-a201-5fd03bf55f3c)
+
+## 🚀 Technologies
+
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [Vite](https://vite.dev/)
+- [Date-fns](https://date-fns.org/)
+- [Eslint](https://eslint.org/)
+
+## 💻 Getting started
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/franciscovaz/react-fundamentals-ts.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+$ cd react-fundamentals-ts
 ```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ npm install
+
+# Start the client
+$ num run dev
+```
+
+---
+
+Made with 💜 by Francisco Vaz 👋 [See my LinkedIn](https://www.linkedin.com/in/francisco-vaz/)
