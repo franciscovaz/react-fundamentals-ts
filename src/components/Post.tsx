@@ -1,5 +1,5 @@
 import { format, formatDistanceToNow } from 'date-fns';
-import { ptBR } from 'date-fns/locale'; 
+import { enGB } from 'date-fns/locale'; 
 
 import { Avatar } from './Avatar'
 import { Comment } from './Comment'
@@ -30,16 +30,16 @@ interface PostProps {
 export function Post ({ post }: PostProps) {
     const publishedDateFormatted = format(post.publishedAt, "d 'de' LLLL 'às' HH:mm'h'",
         {
-            locale: ptBR
+            locale: enGB
         }
     );
 
-    const [comments, setComments] = useState(['Comentário porreiro num post brutal!']);
+    const [comments, setComments] = useState(['Great comment for testing!']);
 
     const [newCommentText, setNewCommentText] = useState('');
 
     const publishedDateRelativeNow = formatDistanceToNow(post.publishedAt, {
-        locale: ptBR,
+        locale: enGB,
         addSuffix: true
     })
 
@@ -58,7 +58,7 @@ export function Post ({ post }: PostProps) {
     }
 
     function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
-        event.target.setCustomValidity('Este campo é obrigatório!');
+        event.target.setCustomValidity('This field is required!');
     }
 
     function deleteComment(commentToDelete: string) {
@@ -99,11 +99,11 @@ export function Post ({ post }: PostProps) {
             </div>
 
             <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
-                <strong>Deixa o teu feedback</strong>
+                <strong>Leave your feedback</strong>
 
                 <textarea 
                     name="comment"
-                    placeholder='Deixa um comentário'
+                    placeholder='Left a comment'
                     value={newCommentText}
                     onChange={handleNewCommentChange}
                     onInvalid={handleNewCommentInvalid}
@@ -111,7 +111,7 @@ export function Post ({ post }: PostProps) {
                 />
 
                 <footer>
-                    <button type="submit" disabled={isNewCommentEmpty}>Publicar</button>
+                    <button type="submit" disabled={isNewCommentEmpty}>Publish</button>
                 </footer>
             </form>
 

@@ -14,28 +14,13 @@ const posts: PostType[] = [
       role: 'Software Engineer'
     },
     content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
+      {type: 'paragraph', content: 'Hey guys 👋'},
+      {type: 'paragraph', content: 'I finished another project, added already to my portfolio. 🚀'}    ,
       {type: 'link', content: 'jane.design/doctorcare'}
     ]
     ,
     publishedAt: new Date('2024-12-02 23:00:00')
   },
-  {
-    id: 2,
-    author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego FERNANDES',
-      role: 'CTO @Rocketseat'
-    },
-    content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
-      {type: 'link', content: 'jane.design/doctorcare'}
-    ]
-    ,
-    publishedAt: new Date('2024-12-03 23:00:00')
-  }
 ]
 
 

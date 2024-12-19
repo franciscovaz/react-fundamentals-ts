@@ -20,7 +20,7 @@ export function Sidebar() {
             <footer>
                 <a href="#">
                     <PencilLine /> 
-                    Editar perfil
+                    Edit profile
                 </a>
             </footer>
         </aside>
